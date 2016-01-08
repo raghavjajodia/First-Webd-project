@@ -1,0 +1,146 @@
+body{
+background-image: url("BGD-Page.jpg");
+font-family: Helvetica, sans-serif; font-size: 18px; line-height: 24px;
+}
+
+
+
+#coin {
+	position: absolute;
+	height: 165px;
+	width: 136px;
+	top: 270px;
+	z-index: 3;
+	left: 230px;
+}
+
+#coffee {
+	position: absolute;
+	height: 285px;
+	width: 360px;
+	top: 230px;
+	
+	z-index: 4;
+	left: -65px;
+}
+#header{
+	height: 60px;
+	width: 764px;
+	position: absolute;
+	z-index: 5;
+	top: 15px;
+	position: relative;
+	left: 450px;
+	}
+#navbarimg{
+	position: absolute;
+	top: 72px;
+	left: 457px;
+	z-index: 7;
+	}
+#nav{
+position: absolute;
+top: 50px;
+left: 600px;
+z-index: 7;
+width: 764px;
+height: 70px;
+}
+
+#nav ul{
+list-style-type: none;
+position: relative;
+	padding-top: 20px;
+	padding-left: 60px;
+	height: 70px;
+	width: 650px;
+}
+#nav ul li{
+float: left;
+display: inline;
+}
+#nav ul li a{
+display: block;
+height: 50px;
+width: 95px;
+}
+
+
+#nav ul li a.homeCurrent {
+	background: url(Home.jpg) no-repeat;
+	width: 95px;
+
+}
+
+#nav ul li a.products {
+	background: url(Products.jpg) no-repeat 0 0;
+	width: 115px;
+}
+
+	
+
+
+#nav ul li a.contact {
+	background: url(Contact.jpg) no-repeat 0 0;
+	width: 116px;
+}
+
+
+
+#side{
+	position: absolute;
+	left: 460px;
+}
+#bottom{
+	position: absolute;
+	left: 460px;}
+
+.holder{
+	position: absolute;
+	left: 495px;
+	top: 130px;
+	height: 565px;
+	width: 700px;
+	background-color: #FFF2BF;
+	z-index: 5;
+	}
+#drop{
+	position: absolute;
+	top: 135px;
+	left: 745px;
+	z-index:6;
+	width: 130px;
+	height: 115px;
+	display: none;
+	}
+.shadow{
+
+  box-shadow: 1px 2px 6px 2px black;
+}
+	
+#drop ul{
+	list-style-type:none;
+	background: #312F2F;
+	opacity:0.7;
+	padding: 0;
+	z-index: 20;
+	position:absolute;
+	top: -19px;
+	}
+#drop ul li{
+border-top: 1px solid #6b727c;
+border-bottom: 1px solid #575f6a;
+padding:0;
+z-index: 20;
+}
+#drop ul li a
+{display: block;
+height: 37px;
+width: 130px;
+text-decoration:none;
+color: #fff;
+text-align:center;
+z-index: 20;
+padding:0;
+
+}
